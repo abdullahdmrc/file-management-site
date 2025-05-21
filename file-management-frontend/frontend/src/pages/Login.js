@@ -17,8 +17,7 @@ const Login = () => {
         password,
       });
 
-      // Assuming backend returns the user object, and we store username for subsequent requests
-      // In a real app, this should be a JWT token
+      
       const loggedInUser = response.data;
       localStorage.setItem('username', loggedInUser.username); // Store username for file operations
       console.log('Login successful:', loggedInUser);
