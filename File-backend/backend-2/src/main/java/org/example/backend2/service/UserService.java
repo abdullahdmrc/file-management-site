@@ -7,7 +7,7 @@ import org.example.backend2.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-//@RequiredArgsConstructor // Lombok'un @RequiredArgsConstructor'ı kullanılıyorsa bu satır aktif edilebilir
+//@RequiredArgsConstructor 
 public class UserService {
     private final UserRepository userRepository;
 
