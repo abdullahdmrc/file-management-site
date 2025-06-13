@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
-//@RequiredArgsConstructor // Lombok'un @RequiredArgsConstructor'ı kullanılıyorsa bu satır aktif edilebilir
+//@RequiredArgsConstructor 
 @CrossOrigin(origins = "*")
 public class AuthController {
     private final UserService userService;
