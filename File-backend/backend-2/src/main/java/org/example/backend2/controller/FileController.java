@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/files")
-//@RequiredArgsConstructor // Lombok'un @RequiredArgsConstructor'ı kullanılıyorsa bu satır aktif edilebilir
+//@RequiredArgsConstructor 
 @CrossOrigin(origins = "*")
 public class FileController {
     private final FileService fileService;
